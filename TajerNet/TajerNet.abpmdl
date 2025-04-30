@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.3",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "TajerNet.Application": {
+      "path": "src/TajerNet.Application/TajerNet.Application.abppkg",
+      "folder": "src"
+    },
+    "TajerNet.Application.Tests": {
+      "path": "test/TajerNet.Application.Tests/TajerNet.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "TajerNet.Domain.Shared": {
+      "path": "src/TajerNet.Domain.Shared/TajerNet.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "TajerNet.Application.Contracts": {
+      "path": "src/TajerNet.Application.Contracts/TajerNet.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "TajerNet.HttpApi": {
+      "path": "src/TajerNet.HttpApi/TajerNet.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "TajerNet.HttpApi.Client": {
+      "path": "src/TajerNet.HttpApi.Client/TajerNet.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "TajerNet.Web": {
+      "path": "src/TajerNet.Web/TajerNet.Web.abppkg",
+      "folder": "src"
+    },
+    "TajerNet.Web.Tests": {
+      "path": "test/TajerNet.Web.Tests/TajerNet.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "TajerNet.EntityFrameworkCore.Tests": {
+      "path": "test/TajerNet.EntityFrameworkCore.Tests/TajerNet.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "TajerNet.EntityFrameworkCore": {
+      "path": "src/TajerNet.EntityFrameworkCore/TajerNet.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "TajerNet.TestBase": {
+      "path": "test/TajerNet.TestBase/TajerNet.TestBase.abppkg",
+      "folder": "test"
+    },
+    "TajerNet.Domain.Tests": {
+      "path": "test/TajerNet.Domain.Tests/TajerNet.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "TajerNet.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/TajerNet.HttpApi.Client.ConsoleTestApp/TajerNet.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "TajerNet.DbMigrator": {
+      "path": "src/TajerNet.DbMigrator/TajerNet.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "TajerNet.Domain": {
+      "path": "src/TajerNet.Domain/TajerNet.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

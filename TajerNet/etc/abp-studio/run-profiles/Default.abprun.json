@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "TajerNet.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44394",
+      "path": "../../../src/TajerNet.Web/TajerNet.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}
